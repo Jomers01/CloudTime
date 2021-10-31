@@ -1,0 +1,59 @@
+/* Estilos Registro */
+.cont-formRegistro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-formRegistro{
+    font-size: 40px;
+}
+
+.form-formRegistro{
+    display: flex;
+    flex-direction: column;
+    background-color: #f5f5f8;
+    padding: 40px 60px;
+    border-radius: 5px;
+}
+
+@media (max-width: 700px){
+    .form-formRegistro{
+        padding: 25px 15px;
+    }
+
+    .title-formRegistro{
+        font-size: 30px;
+    }
+}
+
+.label-formRegistro{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.Lnombre{
+    margin-top: -10px;
+}
+
+.input-formRegistro{
+    padding: 7px 12px;
+    width: 19rem;
+    height: 1.2rem;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    font-size: 18px;
+}
+
+.btn-formRegistro{
+    background-color: #4c4c4c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    width: fit-content;
+    padding: .6rem;
+    margin: 20px auto 0 auto;
+    cursor: pointer;
+}

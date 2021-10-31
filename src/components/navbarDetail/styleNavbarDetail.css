@@ -1,0 +1,28 @@
+/* Estilos NavbarDetail */
+.cont-navbarDetail{
+    background-color: #eee;
+    display: flex;
+    justify-content: center;
+}
+
+.cont-navbarDetail-detail{
+    display: flex;
+    justify-content: space-around;
+    padding: 12px;
+    width: 58%;
+}
+
+@media (max-width: 700px) {
+    .cont-navbarDetail{
+        display: flex;
+    }
+    .cont-navbarDetail-detail{
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+    }
+    .span-navbarDetail-details{
+        width: 45%;
+        margin-left: 15px;
+    }
+}

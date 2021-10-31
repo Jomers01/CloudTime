@@ -1,0 +1,49 @@
+/* Estilos Body */
+body {
+    margin: 0;
+    padding: 0;
+}
+/* Estilos Navbar */
+.cont-home-navbar{
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-navbar-navTop{
+    display: flex;
+    flex-basis: 64%;
+    justify-content: space-around;
+    align-items: center;
+    padding: 9px 0;
+    font-size: 18px;
+}
+
+.nav-navbar-navTop a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.nav-navbar-navTop a:hover{
+    color: #aaa;
+}
+
+.img-navbar-logo{
+    position: relative;
+    height: 30px;
+    left: -1px;
+}
+
+@media (max-width: 700px) {
+    .nav-navbar-navTop{
+        display: flex;
+        flex-basis: 98%;
+        justify-content: space-around;
+        align-items: center;
+        padding: 9px 0;
+        font-size: 14px;
+    }
+}
+

@@ -1,0 +1,76 @@
+/* Estilos NavbarCity */
+.cont-navbarCity{
+    background-color: #ddd;
+    display: flex;
+    justify-content: space-around;
+    padding: 7px 0;
+}
+
+.cont-navbarCity-ubication{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    flex-basis: 50%;
+}
+
+.btn-navbarCity{
+    border: none;
+    border-radius: 7px;
+    background-color: rgba(170, 170, 170, 0.322);
+    padding: 3px 6px;
+    cursor: pointer;
+}
+
+.btn-navbarCity:hover{
+    background-color: rgba(170, 170, 170, 0.801);
+}
+
+.input-navbarCity-city{
+    width: 75%;
+    padding: 5px;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    outline: none;
+    font-size: 18px;
+}
+
+.cont-navbarCity-options{
+    position: relative;
+    left: 30px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.select-navbarCity{
+    cursor: pointer;
+    padding: 7px;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    font-size: 12px;
+    background-color: rgba(170, 170, 170, 0.3);
+}
+
+@media (max-width: 700px) {
+    .cont-navbarCity{
+        background-color: #ddd;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 7px 0;
+    }
+
+    .cont-navbarCity-ubication{
+        display: flex;
+    }
+
+    .cont-navbarCity-options{
+        justify-content: center;
+        margin: 10px 0 5px 0;
+        position: relative;
+        left: 0;
+    }
+}
